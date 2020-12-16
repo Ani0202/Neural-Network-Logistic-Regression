@@ -19,14 +19,3 @@ You will build a Logistic Regression, using a Neural Network mindset. The follow
 For one example  𝑥(𝑖) :
 𝑧(𝑖)=𝑤𝑇𝑥(𝑖)+𝑏(1)
 𝑦̂ (𝑖)=𝑎(𝑖)=𝑠𝑖𝑔𝑚𝑜𝑖𝑑(𝑧(𝑖))(2)
-(𝑎(𝑖),𝑦(𝑖))=−𝑦(𝑖)log(𝑎(𝑖))−(1−𝑦(𝑖))log(1−𝑎(𝑖))(3)
-The cost is then computed by summing over all training examples:
-𝐽=1𝑚∑𝑖=1𝑚(𝑎(𝑖),𝑦(𝑖))(6)
-
-**Key steps**:
-In this exercise, you will carry out the following steps: 
-    - Initialize the parameters of the model
-    - Learn the parameters for the model by minimizing the cost  
-    - Use the learned parameters to make predictions (on the test set)
-    - Analyse the results and conclude
-
