@@ -16,14 +16,12 @@ You will build a Logistic Regression, using a Neural Network mindset. The follow
 <img src="https://i1.wp.com/www.maolintu.com/wp-content/uploads/2018/02/LogReg_kiank.png?fit=1036%2C804&ssl=1" style="width:650px;height:400px;">
 
 **Mathematical expression of the algorithm**:
-
-For one example $x^{(i)}$:
-$$z^{(i)} = w^T x^{(i)} + b \tag{1}$$
-$$\hat{y}^{(i)} = a^{(i)} = sigmoid(z^{(i)})\tag{2}$$ 
-$$ \mathcal{L}(a^{(i)}, y^{(i)}) =  - y^{(i)}  \log(a^{(i)}) - (1-y^{(i)} )  \log(1-a^{(i)})\tag{3}$$
-
+For one example  𝑥(𝑖) :
+𝑧(𝑖)=𝑤𝑇𝑥(𝑖)+𝑏(1)
+𝑦̂ (𝑖)=𝑎(𝑖)=𝑠𝑖𝑔𝑚𝑜𝑖𝑑(𝑧(𝑖))(2)
+(𝑎(𝑖),𝑦(𝑖))=−𝑦(𝑖)log(𝑎(𝑖))−(1−𝑦(𝑖))log(1−𝑎(𝑖))(3)
 The cost is then computed by summing over all training examples:
-$$ J = \frac{1}{m} \sum_{i=1}^m \mathcal{L}(a^{(i)}, y^{(i)})\tag{6}$$
+𝐽=1𝑚∑𝑖=1𝑚(𝑎(𝑖),𝑦(𝑖))(6)
 
 **Key steps**:
 In this exercise, you will carry out the following steps: 
