@@ -9,9 +9,7 @@ You will build a simple image-recognition algorithm that can correctly classify 
 
 ## - General Architecture of the learning algorithm ##
 
-It's time to design a simple algorithm to distinguish cat images from non-cat images.
-
-You will build a Logistic Regression, using a Neural Network mindset. The following Figure explains why **Logistic Regression is actually a very simple Neural Network!**
+The following Figure explains why **Logistic Regression is actually a very simple Neural Network!**
 
 <img src="https://i1.wp.com/www.maolintu.com/wp-content/uploads/2018/02/LogReg_kiank.png?fit=1036%2C804&ssl=1" style="width:650px;height:400px;">
 
